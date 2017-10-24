@@ -1,3 +1,15 @@
+% GB comments
+1.	100
+2a. 70 fraction of base pair alignment is calculated incorrectly. Your code does not discriminate between correctly paired nucleotides. To correctly achieve that use “shared_bp = length(strfind(align(2,:),’|’));" Then use fraction = shared_bp/length(ERK1)
+2b. 70 Same problem as above
+2c. 40 Same problem as above and you only calculated for nucleotide sequences. The questions asks you to “align both the coding DNA sequences and protein sequences to the
+% human versions.”
+3a 100 
+3b. 100
+3c. 100  	
+Overall: 81
+
+
 %HW3
 
 %% Problem 1 - Smith-Waterman alignment
